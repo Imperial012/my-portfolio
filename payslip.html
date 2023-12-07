@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JVT Company Payroll System</title>
+  <link rel="stylesheet" href="payslip.css">
+
+</head>
+<body>
+ 
+  <div class="container">
+    <div class="navbar">
+        <div class="nav-item">
+            <a href="payslip.html" class="active">Payroll</a>
+        </div>
+        <div class="nav-item">
+            <a href="payslip.html">Attendance Monitoring</a>
+        </div>
+        <div class="nav-item">
+            <a href="payslip.js">Employee List</a>
+        </div>
+        <div class="nav-item">
+            <a href="index.html">Logout</a>
+        </div>
+    </div>
+    
+</div>
+
+
+
+  <h1>JVT Company Payroll System</h1>
+  <div id="container">
+    <div id="paySlip">
+      <h2>Pay Slip</h2>
+      <form id="paySlipForm">
+        <input type="text" id="employeeId" placeholder="Employee ID" required><br>
+        <input type="text" id="employeeName" placeholder="Name" required><br>
+        <input type="text" id="employeePosition" placeholder="Position" required><br>
+        <input type="number" id="ratePerHour" placeholder="Rate per Hour" min="1" required><br>
+        <input type="number" id="numOfHours" placeholder="Number of Hours/Days" min="1" required><br>
+        <input type="number" id="overtimeHours" placeholder="Overtime Hours" min="0" required><br>
+        <input type="submit" class="btn" value="Generate Pay Slip">
+      </form>
+      <div id="paySlipResults"></div>
+    </div>
+  </div>
+
+  <script src="payslip.js"></script>
+
+</body>
+</html>
+</html>

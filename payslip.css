@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 20px 0;
+  }
+
+  #container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #paySlip {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+
+  input[type="text"], input[type="number"]{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    background-color: #45a049;
+  }
+
+  .breakdown {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .breakdown th, .breakdown td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .breakdown th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+ 
+
+
+ 
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s ease;
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+    border-bottom-color: #fff;
+}
